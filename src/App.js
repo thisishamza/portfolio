@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import Particles from "react-particles-js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faGooglePlusG,faFacebookF,faLinkedinIn,faGithub,  faQuora, faReact, faNode,  faCss3,  faHtml5,  faJs,  faNodeJs,  faDrupal} from "@fortawesome/free-brands-svg-icons";
-import {faDownload,faChevronCircleDown,faCode, faSchool,faGraduationCap,faUniversity,faAngleDoubleUp,faInfoCircle,faPlayCircle,faHeart} from "@fortawesome/free-solid-svg-icons";
+import {faGooglePlusG,faLinkedinIn,faGithub, faReact, faNode,  faCss3,  faHtml5,  faJs,  faDrupal} from "@fortawesome/free-brands-svg-icons";
+import {faDownload,faChevronCircleDown} from "@fortawesome/free-solid-svg-icons";
 import { VerticalTimeline,VerticalTimelineElement
 } from "react-vertical-timeline-component";
-import ReactCardFlip from "react-card-flip";
 import "react-vertical-timeline-component/style.min.css";
 import "./App.css";
 
@@ -137,17 +136,17 @@ function App() {
         <Particles className="particles" params={particleconfig} />
 
         <div className="header">
-          <h1>
-            Fahad
+          <h2>
+            Muhammad 
             <br />
-            Israr
-          </h1>
-          <h2>Software Developer</h2>
+            Hamza
+          </h2>
+          <h3>Software Engineer</h3>
           <div className="icon-container">
             <a
               title="Google"
               className="fa"
-              href="mailto:fahad00cms@gmail.com"
+              href="mailto:f168345@nu.edu.pk"
               target="new"
             >
               <FontAwesomeIcon icon={faGooglePlusG} />
@@ -155,36 +154,20 @@ function App() {
             <a
               title="Linkedin"
               className="fa"
-              href="https://www.linkedin.com/in/fahad00cms"
+              href="https://www.linkedin.com/in/muhammadhamza10"
               target="new"
             >
               <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
             <a
-              title="Facebook"
-              className="fa"
-              href="https://facebook.com/fahad.israr.14"
-              target="new"
-            >
-              <FontAwesomeIcon icon={faFacebookF} />
-            </a>
-            <a
               title="Github"
               className="fa2"
-              href="https://github.com/fahad-israr"
+              href="https://github.com/thisishamza"
               target="new"
             >
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a
-              title="Quora"
-              className="fa"
-              href="https://www.quora.com/profile/Fahad-Israr"
-              target="new"
-            >
-              <FontAwesomeIcon icon={faQuora} />
-            </a>
-          </div>
+            </div>
           <div className="pagelinks">
             <a className="pagenav" href="#aboutMe">
               About Me
@@ -259,100 +242,18 @@ function App() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date=" May 2019 - July 2019"
+            date=" Aug 2020 - Sep 2021"
             iconStyle={{ background: "#000000", color: "#fff" }}
             icon={<FontAwesomeIcon icon={faDrupal} />}
           >
-            <h1>IIT Bombay</h1>
-            <h1>-Fellowship at FOSSEE 2019-</h1>
-            <p>Working and Contributing on Open Source Softwares like Drupal</p>
+            <h1>Techleadz</h1>
+            <h1>Software Engineer</h1>
+            <p>Working on Django, python </p>
           </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date=" May 2019 -  Present"
-            iconStyle={{ background: "#000000", color: "#fff" }}
-            icon={<FontAwesomeIcon icon={faReact} />}
-          >
-            <h1>Lenshood</h1>
-            <h1>-Full Stack Dev-</h1>
-            <p>Developing a PWA for E-Commerce with React+Node+postgreSQL </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date=" Dec 2018 - Jan 2019"
-            iconStyle={{ background: "#000000", color: "#fff" }}
-            icon={<FontAwesomeIcon icon={faReact} />}
-          >
-            <h1>IoTrek</h1>
-            <h1>-P.W.A Dev-</h1>
-            <p>Building an ERP system on React JS</p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date=" August 2018 - Present"
-            iconStyle={{ background: "#000000", color: "#fff" }}
-            icon={<FontAwesomeIcon icon={faNodeJs} />}
-          >
-            <h1>Xungry.com</h1>
-            <h1>-Full Stack Dev-</h1>
-            <p>Building a PWA using React+Node Framework</p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date=" August 2017 - Present"
-            iconStyle={{ background: "#000000", color: "#fff" }}
-            icon={<FontAwesomeIcon icon={faCode} />}
-          >
-            <h1>Web Dev Club, IIIT Trichy</h1>
-            <h1>-Full Stack Dev-</h1>
-            <p>Building Websites ,Apps and Utilities for College</p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date=" 2017 - 2021"
-            iconStyle={{ background: "#000000", color: "#fff" }}
-            icon={<FontAwesomeIcon icon={faGraduationCap} />}
-          >
-            <h1>IIIT Trichy</h1>
-            <h1>- B.Tech -</h1>
-            <p>Electronics and Communication Engineering</p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="May 2016"
-            iconStyle={{ background: "#000000", color: "#fff" }}
-            icon={<FontAwesomeIcon icon={faUniversity} />}
-          >
-            <h1>City Montessori School</h1>
-            <h1>- Intermediate -</h1>
-            <p>Scored 99.26 Percentile ISC 2016</p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="May 2014"
-            iconStyle={{ background: "#000000", color: "#fff" }}
-            icon={<FontAwesomeIcon icon={faSchool} />}
-          >
-            <h1>City Montessori School</h1>
-            <h1>- High School -</h1>
-            <p>Meritorious Student in ICSE 2014</p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            iconStyle={{ background: "#000000", color: "#fff" }}
-            icon={<FontAwesomeIcon icon={faAngleDoubleUp} />}
-          ></VerticalTimelineElement>
-        </VerticalTimeline>
+          </VerticalTimeline>
       </div>
       {/*------------Projects---------------*/}
-      <div id="projects" className="projects">
+      {/* <div id="projects" className="projects">
         <h1>Projects</h1>
         <h2 style={{ maxWidth: "90%" }}>
           Being a Professional , I love to repect the confidentiality with my
@@ -678,7 +579,7 @@ function App() {
           </a>{" "}
         </h2>
       </div>
-      {/*------------Footer---------------*/}
+      ------------Footer--------------- */}
       <div className="footer">
         <div>
           <h2>Connect With Me:</h2>
@@ -687,7 +588,7 @@ function App() {
           <a
             title="Google"
             className="fa"
-            href="mailto:fahad00cms@gmail.com"
+            href="mailto:f168345@nu.edu.pk"
             target="new"
           >
             <FontAwesomeIcon icon={faGooglePlusG} />
@@ -695,43 +596,27 @@ function App() {
           <a
             title="Linkedin"
             className="fa"
-            href="https://www.linkedin.com/in/fahad00cms"
+            href="https://www.linkedin.com/in/muhammadhamza10"
             target="new"
           >
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
           <a
-            title="Facebook"
-            className="fa"
-            href="https://facebook.com/fahad.israr.14"
-            target="new"
-          >
-            <FontAwesomeIcon icon={faFacebookF} />
-          </a>
-          <a
             title="Github"
             className="fa2"
-            href="https://github.com/fahad-israr"
+            href="https://github.com/thisishamza"
             target="new"
           >
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a
-            title="Quora"
-            className="fa "
-            href="https://www.quora.com/profile/Fahad-Israr"
-            target="new"
-          >
-            <FontAwesomeIcon icon={faQuora} />
-          </a>
-        </div>
-        <div className="made">
+          </div>
+        {/* <div className="made">
           <h2>
             <FontAwesomeIcon icon={faCode} /> with{" "}
             <FontAwesomeIcon icon={faHeart} /> on{" "}
             <FontAwesomeIcon icon={faReact} />{" "}
           </h2>
-        </div>
+        </div> */}
       </div>
     </div>
   );
