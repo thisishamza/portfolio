@@ -191,13 +191,12 @@ function App() {
       <div id="aboutMe" className="about ">
         <h1>About Me</h1>
         <p>
-          I am a Js Enthusiast and a Progressive Web App Developer and I love to
-          work with React Js [for UI] , Node Js [for Backend] and postgreSQL
+          I am a Software Enthusiast and a Progressive Web App Developer and I love to
+          work with React Js and Angular [for UI] , Django [for Backend] and postgreSQL
           [for DBMS]. Besides, I love Competitive Programming and my most
-          preferred language is <b>C++</b>, though <b>Java</b> was my First
+          preferred language is <b>Python</b>, though <b>C++</b> was my First
           Language. I love to work with Open Source Softwares and also , I love
-          to contribute to it. I've worked with Drupal based Content Management
-          System as Well and Developed Custom Modules.
+          to contribute to it.
         </p>
         <div className="tech">
           <div className="tools">
