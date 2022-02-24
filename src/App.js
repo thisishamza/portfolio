@@ -191,45 +191,29 @@ function App() {
       <div id="aboutMe" className="about ">
         <h1>About Me</h1>
         <p>
-          I am a Software Enthusiast and a Progressive Web App Developer and I love to
-          work with React Js and Angular [for UI] , Django [for Backend] and postgreSQL
+          I am a Software Engineer with 2+ years of experinece in software industry.I love to
+          work with React Js and Angular [for UI] , Django [for Backend] and postgreSQL,mySQL
           [for DBMS]. Besides, I love Competitive Programming and my most
           preferred language is <b>Python</b>, though <b>C++</b> was my First
-          Language. I love to work with Open Source Softwares and also , I love
-          to contribute to it.
+          Language.
         </p>
         <div className="tech">
           <div className="tools">
-            <h2>U.I.</h2>
+            <h2>Frontend</h2>
             <div className="tools-icon">
               <FontAwesomeIcon icon={faHtml5} />
               <FontAwesomeIcon icon={faCss3} />
               <FontAwesomeIcon icon={faJs} />
+              <FontAwesomeIcon icon={faReact} />
+              <FontAwesomeIcon icon={faAngular} />
             </div>
           </div>
 
           <div className="web-technologies">
-            <h2>P.W.A</h2>
+            <h2>Backend</h2>
             <div className="web-icons">
-              <FontAwesomeIcon icon={faReact} />
-              <FontAwesomeIcon icon={faNode} />
-              <img
-                src={postgres}
-                alt="postgreSql Icon"
-                width="120px"
-                height="120px"
-              />
+              <FontAwesomeIcon icon={faPython} />
             </div>
-          </div>
-
-          <div className="cms">
-            <h2>C.M.S.</h2>
-            <img
-              src={require("./images/drupal.png")}
-              alt="drupal-logo"
-              width="150px"
-              height="150px"
-            />
           </div>
         </div>
       </div>
@@ -241,13 +225,13 @@ function App() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date=" Aug 2020 - Sep 2021"
+            date=" Aug 2020 - Present"
             iconStyle={{ background: "#000000", color: "#fff" }}
-            icon={<FontAwesomeIcon icon={faDrupal} />}
+            icon={<FontAwesomeIcon icon={faPython} />}
           >
             <h1>Techleadz</h1>
             <h1>Software Engineer</h1>
-            <p>Working on Django, python </p>
+            <p>Working on Django, Python,Angular </p>
           </VerticalTimelineElement>
           </VerticalTimeline>
       </div>
@@ -609,13 +593,13 @@ function App() {
             <FontAwesomeIcon icon={faGithub} />
           </a>
           </div>
-        {/* <div className="made">
+        <div className="made">
           <h2>
             <FontAwesomeIcon icon={faCode} /> with{" "}
             <FontAwesomeIcon icon={faHeart} /> on{" "}
             <FontAwesomeIcon icon={faReact} />{" "}
           </h2>
-        </div> */}
+        </div>
       </div>
     </div>
   );
