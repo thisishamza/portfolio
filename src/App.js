@@ -1,15 +1,14 @@
 import React, { useState } from "react";
 import Particles from "react-tsparticles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faGooglePlusG,faLinkedinIn,faGithub, faReact, faNode,  faCss3,  faHtml5,  faJs,  faDrupal,faAngular,faPython} from "@fortawesome/free-brands-svg-icons";
+import {faGooglePlusG,faLinkedinIn,faGithub, faReact,  faCss3,  faHtml5,  faJs,faAngular,faPython} from "@fortawesome/free-brands-svg-icons";
 import {faDownload,faChevronCircleDown,faCode,faHeart} from "@fortawesome/free-solid-svg-icons";
 import { VerticalTimeline,VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "./App.css";
 
-const postgres = require("./images/postgresql.png");
-const resume = require("./resume/Resume_Fahad_Israr_May_2019.pdf");
+const resume = require("Muhammad Hamza.pdf");
 let particleconfig = {
   particles: {
     number: {
@@ -194,24 +193,25 @@ function App() {
           I am a Software Engineer with 2+ years of experinece in software industry.I love to
           work with React Js and Angular [for UI] , Django [for Backend] and postgreSQL,mySQL
           [for DBMS]. Besides, I love Competitive Programming and my most
-          preferred language is <b>Python</b>, though <b>C++</b> was my First
+          preferred language is Python, though C++ was my First
           Language.
         </p>
         <div className="tech">
           <div className="tools">
-            <h2>Frontend</h2>
+            <h2>U.I.</h2>
             <div className="tools-icon">
               <FontAwesomeIcon icon={faHtml5} />
               <FontAwesomeIcon icon={faCss3} />
               <FontAwesomeIcon icon={faJs} />
-              <FontAwesomeIcon icon={faReact} />
-              <FontAwesomeIcon icon={faAngular} />
+
             </div>
           </div>
 
           <div className="web-technologies">
-            <h2>Backend</h2>
+            <h2>Web Technologies</h2>
             <div className="web-icons">
+              <FontAwesomeIcon icon={faReact} />
+              <FontAwesomeIcon icon={faAngular} />
               <FontAwesomeIcon icon={faPython} />
             </div>
           </div>
