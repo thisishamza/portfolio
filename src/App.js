@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Particles from "react-tsparticles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faGooglePlusG,faLinkedinIn,faGithub, faReact, faNode,  faCss3,  faHtml5,  faJs,  faDrupal} from "@fortawesome/free-brands-svg-icons";
-import {faDownload,faChevronCircleDown} from "@fortawesome/free-solid-svg-icons";
+import {faGooglePlusG,faLinkedinIn,faGithub, faReact, faNode,  faCss3,  faHtml5,  faJs,  faDrupal,faAngular,faPython} from "@fortawesome/free-brands-svg-icons";
+import {faDownload,faChevronCircleDown,faCode,faHeart} from "@fortawesome/free-solid-svg-icons";
 import { VerticalTimeline,VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
