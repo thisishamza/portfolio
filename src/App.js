@@ -8,7 +8,7 @@ import { VerticalTimeline,VerticalTimelineElement
 import "react-vertical-timeline-component/style.min.css";
 import "./App.css";
 
-const resume = require("/Muhammad Hamza.pdf");
+const resume = require("./images/Muhammad Hamza.pdf");
 let particleconfig = {
   particles: {
     number: {
