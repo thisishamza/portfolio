@@ -187,12 +187,12 @@ function App() {
 
       {/*-------------About Me------------*/}
 
-      <div id="aboutMe" className="about ">
+      <div id="aboutMe" className="about">
         <h1>About Me</h1>
         <p>
           I am a Software Engineer with 2+ years of experinece in software industry.I love to
-          work with React Js and Angular [for UI] , Django [for Backend] and postgreSQL,mySQL
-          [for DBMS]. Besides, I love Competitive Programming and my most
+          work with React Js and Angular, Django and postgreSQL,mySQL.
+          Besides, I love Competitive Programming and my most
           preferred language is Python, though C++ was my First
           Language.
         </p>
@@ -203,7 +203,6 @@ function App() {
               <FontAwesomeIcon icon={faHtml5} />
               <FontAwesomeIcon icon={faCss3} />
               <FontAwesomeIcon icon={faJs} />
-
             </div>
           </div>
 
